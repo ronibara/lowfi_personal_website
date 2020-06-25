@@ -1,0 +1,22 @@
+body {
+  color: black;
+  background-color: #E5E4E2;
+  font: 13px sans-serif;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
