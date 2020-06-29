@@ -1,60 +1,159 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title> Rohan's Low-Fi Personal Website </title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<html>
+<head>
+  <title> Rohan's Low-Fi Personal Website </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
       <!--old bare-bones css link below
-      <link rel = "stylesheet" href = "style.css"> -->
-    </head>
-  <body>
-    <center>
-      <h6>  THANKS FOR VISITING  </h6>
-      <h1> Hi, I'm Rohan! </h1>
-    </center>
-    <div class = "row">
-      <div class = "column">
+        <link rel = "stylesheet" href = "style.css"> -->
+      </head>
+      <body>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+         THANKS FOR VISITING!
+       </nav>
+       <div class="container">
         <center>
-        <h3> Icebreakers </h3>
-        <p><b>Hobbies:</b> graphic design, FIFA, playing hockey, <br> watching standup comedy skits, drinking coffee</p>
-        <p><b>Fun fact:</b> I strongly dislike food crumbs!</p>
-        <p> <b> On Campus: </b> TEDxUofM, "KTP" Technology Group </p>
-        <p><b>Career goals:</b> Currently practicing <mark>UX research + UI design </mark> , and I think <br> I'd love to be a product manager in 10 years!</p>
-        <p> <b> Coding Life: </b> Intro to C++, Intro to Python, and copy-pasting <br> HTML code into a personal website! </p>
-        <p> <b> Philosophy: </b> I love to break things down to their <br> core in order to fully understand it! This interest came <br> from Carl Jung's symbol of the <i> "shadow" </i></p>
+          <p> . . . . . . . . . . </p>
+          <div class="jumbotron">
+            <h1 class="display-4"> <mark> Hi, I'm Rohan! </mark> </h1>
+            <hr class="my-4">
+            <p class="lead">Aspiring UX Designer</p>
+          </div>
         </center>
       </div>
-      <div class = "column">
+      <div class="container">
         <center>
-          <h3> 1 Video = 1000 Pictures = 1 mil. Words </h3>
-          <video width="400" height="240" controls="controls" src="ukulele.mp4">Your browser does not support the HTML5 Video element.</video>
+          <div class="row">
+            <div class="col-md">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/agassiDribbble.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/deleDribbble.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/shartDribbble.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md">
+              <h3>Philosophy</h3>
+              <p> <b> I love to </b> break things down to their core in order to fully understand it! <br> This interest came from Carl Jung's symbol of the <i> "shadow" </i></p>
+              <a class="btn btn-primary" href="https://www.youtube.com/watch?v=X-y2DddsWQ8" role="button">Link</a>
+            </div>
+          </div>
         </center>
       </div>
-      <div class = "column">
-        <center>
-          <h3> Classes </h3>
-          <h5> SPRING 2020 </h5>
-          <i>
-          <ul>
-            <li> UX Field Research in the Public Sector </li>
-            <li> Adobe x Activision Design Jam </li>
-            <li> COVID-19 Design Jam </li>
-            <li> iXperience: Product Management course </li>
-          </ul>
-          </i>
-          <h5> FALL 2020 </h5>
-          <i>
-          <ul>
-            <li> Usability Testing and Analysis </li>
-            <li> EECS 203: Discrete Math </li>
-            <li> Intro to Statistics </li>
-            <li> ALA 171: Facilitating a Class </li>
-          </ul>
-          </i>
-        </center>
+      <div class="container">
+        <!-- Content here -->
+        <div class="row">
+          <div class="col-sm">
+            <center>
+              <h3> Icebreakers </h3>
+              <p><b>Hobbies:</b> graphic design, FIFA, playing hockey, watching standup comedy skits, drinking coffee</p>
+              <p><b>Fun fact:</b> I strongly dislike food crumbs!</p>
+              <p> <b> On Campus: </b> TEDxUofM, "KTP" Tech Group </p>
+              <p><b>Career goals:</b> Currently practicing <mark>UX research + UI design </mark> , and I think I'd love to be a product manager in 10 years!</p>
+              <p> <b> Coding Life: </b> Intro to C++, Intro to Python, and copy-pasting HTML code into a personal website! </p>
+            </center>
+          </div>
+          <div class="col-sm">
+           <center>
+            <h3> 1 Picture = 1000 Words </h3>
+            <p> ...so 1 Video = 1000 Pictures = 1 mil. Words? </p>
+            <video width="400" height="240" controls="controls" src="/assets/ukulele.mp4">Your browser does not support the HTML5 Video element.</video>
+          </center>
+        </div>
+        <div class="col-sm">
+          <center>
+            <h3> Classes </h3>
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Skill</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">SI 422</th>
+                  <td>Usability Testing and Analysis</td>
+                  <td>User Testing</td>
+                </tr>
+                <tr>
+                  <th scope="row">EECS 203</th>
+                  <td>Discrete Math</td>
+                  <td>CS Thinking</td>
+                </tr>
+                <tr>
+                  <th scope="row">STATS 250</th>
+                  <td>Intro to Statistics</td>
+                  <td>Data Understanding</td>
+                </tr>
+                <tr>
+                  <th scope="row">ALA 171</th>
+                  <td>Making the Most of Michigan</td>
+                  <td>Facilitating Conversation</td>
+                </tr>
+              </tbody>
+            </table>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Content here -->
+      <div class="row">
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/adobie.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Activate</h5>
+              <p class="card-text">App to Find Video Games</p>
+              <a href="https://xd.adobe.com/view/06313be8-70b9-4f87-4164-831811bb7150-7000/" class="btn btn-primary">Prototype</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/boxing.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shadowboxing</h5>
+              <p class="card-text">Mental Health + Productivity</p>
+              <a href="https://xd.adobe.com/view/ce86ffa9-5f7c-401f-6d05-9e9bd72856b6-b8b7/#access_token=eyJ4NXUiOiJpbXNfbmExLWtleS0xLmNlciIsImFsZyI6IlJTMjU2In0.eyJpZCI6IjE1OTM0NDc2ODk2NTdfMTM4YTA1MDAtODFiNS00MmQyLWFiZTQtNGFlMWY0NzA3NWE3X3VlMSIsImNsaWVudF9pZCI6IkNvbWV0V2ViMSIsInVzZXJfaWQiOiJFMDQ2MzREMjVDRjMzNENGMEE0OTVFQ0VAdW1pY2guZWR1IiwidHlwZSI6ImFjY2Vzc190b2tlbiIsImFzIjoiaW1zLW5hMSIsImZnIjoiVVI1UEpETDZGTFA1Slg2V0dNQTNRT1FBU0U9PT09PT0iLCJzaWQiOiIxNTkzNDQ3Njg5NjU3XzY3NDQzYTc2LWEyOWItNDg1Ny05Y2Y4LTg1NmNmODRhODJkOV91ZTEiLCJtb2kiOiI2NDE5MjAiLCJjIjoiWWIzVWo4OWNuTlBsYk1KeUxzeHN5UT09IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiIiLCJjcmVhdGVkX2F0IjoiMTU5MzQ0NzY4OTY1NyJ9.XvweJ9ZbhJR9ej603WUgz-sg4trTEvvNYQgeDVjHkQy_0Y5gAn0N5eEUf9g1P5cM5OU3z7LwMRhrDaWUc6BSJSWX22B2TT1lqQEiO1GeglFXvrtqbICet67gbCdcUeg8OAowyJQ1iGAX0InjzKi6yFLHIKxj7KzxP1tm67mEgFi_ALlH2Tck1wgouklh_7FcIzERC8MHXEb9YMGKTMEHeZjP-OqZE8Me6Mx-XJjRjJozoP91FRYGWeaoDUlMgqYxbreW-liPLl5842GXRt2gTtfH_DzPJ9cYhncKTuJfDPfEuYmQR7d7LZEMoyG6WpLm0TuXscBGMGszg4-hLYWYvA&token_type=bearer&expires_in=86399997" class="btn btn-primary">Prototype</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/ub.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">UBetcha</h5>
+              <p class="card-text">Social Betting Platform</p>
+              <a href="https://ubetcha.landen.co/" class="btn btn-primary">MVP</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
-</html>
+  </html>
